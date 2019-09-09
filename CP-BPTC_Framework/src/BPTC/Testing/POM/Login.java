@@ -6,10 +6,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Login {
+import BPTC.Testing.Base.Base;
+
+public class Login extends Base {
 	
-		   ChromeDriver driver;
-		   Properties pr;
+	
 	
     public Login(ChromeDriver driver, Properties pr)
 		   {
@@ -18,7 +19,7 @@ public class Login {
 		   }
 	public void Signin(String uid, String Pwd) throws InterruptedException
     {   
-    	
+    	Thread.sleep(5000);
     	WebElement userid = driver.findElement(By.id("txtLoginUserId"));
 		userid.sendKeys(uid);
 		WebElement Password = driver.findElement(By.id("txtpassword"));

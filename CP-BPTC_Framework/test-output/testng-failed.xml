@@ -6,7 +6,7 @@
       <class name="BPTC.Testing.TestCases.LoginTC">
         <methods>
           <include name="BrowserClose"/>
-          <include name="LoginTest"/>
+          <include name="LoginTest" invocation-numbers="0"/>
           <include name="BrowserLaunch"/>
         </methods>
       </class> <!-- BPTC.Testing.TestCases.LoginTC -->
