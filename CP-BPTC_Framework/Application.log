@@ -1,0 +1,26 @@
+2019-09-10 17:57:38 {Base} (main:) Browser launched successfully
+2019-09-10 17:57:47 {Registration} (main:) Register button clicked successfully
+2019-09-10 17:57:57 {Registration} (main:) Member first name
+2019-09-10 18:15:39 {Base} (main:) Browser launched successfully
+2019-09-10 18:15:47 {Registration} (main:) Register button clicked successfully
+2019-09-10 18:15:58 {Registration} (main:) Member first name
+2019-09-10 18:16:06 {Registration} (main:) element click intercepted: Element <button type="button" id="btnRegister" class="btn btn-success" onclick="RegisterUser(); return false;" aria-expanded="false" style="width: 100%" disabled="">...</button> is not clickable at point (671, 426). Other element would receive the click: <div class="btn-group" style="width: 100%">...</div>
+  (Session info: chrome=76.0.3809.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'QA-003', ip: '172.20.10.3', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\Akhalesh\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58039}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: dd72ac43ea68a23457b15c037f3c86c8
+2019-09-10 18:16:07 {Base} (main:) Browser Closed successfully
+2019-09-10 18:55:33 {Base} (main:) Browser launched successfully
+2019-09-10 18:55:35 {LoginTC} (main:) Login button clicked successfully
+2019-09-10 18:55:49 {LoginTC} (main:) Login test -Pass for Invalid credential, it prompts validation for invalid credentialsC11111 hbss2051
+2019-09-10 18:55:49 {Base} (main:) Browser Closed successfully
+2019-09-10 18:56:08 {Base} (main:) Browser launched successfully
+2019-09-10 18:56:11 {LoginTC} (main:) Login button clicked successfully
+2019-09-10 18:56:24 {LoginTC} (main:) Login test -Pass for Invalid credential, it prompts validation for invalid credentialsC13057 hbf254
+2019-09-10 18:56:26 {Base} (main:) Browser Closed successfully
+2019-09-10 18:56:46 {Base} (main:) Browser launched successfully
+2019-09-10 18:56:48 {LoginTC} (main:) Login button clicked successfully
+2019-09-10 18:57:02 {LoginTC} (main:) Login test -Pass for Invalid credential, it prompts validation for invalid credentialsC13057 Hbss2004
+2019-09-10 18:57:02 {Base} (main:) Browser Closed successfully
