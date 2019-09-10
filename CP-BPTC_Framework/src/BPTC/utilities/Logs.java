@@ -10,4 +10,9 @@ public class Logs {
 		   Logger l=Logger.getLogger(classname);
 		   l.info(msg);
 	   }
-}
+
+    public static void takescreens()
+    {
+    	System.out.println("It for taking the screenshot");
+    }
+    }
