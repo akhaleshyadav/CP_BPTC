@@ -10,6 +10,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 
+import BPTC.utilities.Logs;
 import jxl.Cell;
 import jxl.Sheet;
 import jxl.Workbook;
@@ -32,13 +33,16 @@ public class Base {
     	  driver= new ChromeDriver();
     	  driver.get("https://cp-bptcstg.qryde.com/");
     	  driver.manage().window().maximize();
-    	  Thread.sleep(2000);
+    	  Thread.sleep(5000);
+    	  Logs.Takelog("Base", "Browser launched successfully");
       }
       @AfterMethod
-      public void BrowserClose()
+      public void BrowserClose() throws InterruptedException
       {
     	 // driver=new ChromeDriver();
     	  driver.close();
+    	  Logs.Takelog("Base", "Browser Closed successfully");
+    	  Thread.sleep(3000);
       }
       @DataProvider
       public Object[][] LoginData() throws BiffException, IOException
