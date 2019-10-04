@@ -70,7 +70,6 @@ public class TripBooking extends Base{
 	WebElement RoundChckBx=driver.findElement(By.id("chkroundtrip"));
 	RoundChckBx.click();
 	
-	Checkbox ck=new Checkbox();
 	
 	}
 	
