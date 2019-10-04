@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="BPTC.Testing.TestCases.Registration">
+      <class name="BPTC.Testing.TestCases.SameDayBooking">
         <methods>
           <include name="BrowserClose"/>
-          <include name="Reg_new"/>
+          <include name="SameDayBooking"/>
           <include name="BrowserLaunch"/>
         </methods>
-      </class> <!-- BPTC.Testing.TestCases.Registration -->
+      </class> <!-- BPTC.Testing.TestCases.SameDayBooking -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

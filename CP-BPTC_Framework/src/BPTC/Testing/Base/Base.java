@@ -40,7 +40,7 @@ public class Base {
       public void BrowserClose() throws InterruptedException
       {
     	 // driver=new ChromeDriver();
-    	  driver.close();
+    	//  driver.close();
     	  Logs.Takelog("Base", "Browser Closed successfully");
     	  Thread.sleep(3000);
       }

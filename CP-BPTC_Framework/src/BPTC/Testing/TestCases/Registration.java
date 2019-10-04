@@ -1,5 +1,9 @@
 package BPTC.Testing.TestCases;
 
+import org.testng.annotations.Test;
+
+import java.io.IOException;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -10,10 +14,11 @@ import org.testng.annotations.Test;
 
 import BPTC.Testing.Base.Base;
 import BPTC.utilities.Logs;
+import BPTC.utilities.Screenshots;
 
 public class Registration extends Base {
 @Test	
-public void Reg_new() throws InterruptedException
+public void Reg_new() throws InterruptedException, IOException
 {   try {
 	WebElement LoginBtn=driver.findElement(By.id("lnkLogin"));
 	LoginBtn.click();
@@ -51,17 +56,19 @@ public void Reg_new() throws InterruptedException
 	{
 		Logs.Takelog("Registration", "Pass - User Registered successfully");
 	    System.out.println("Pass - User registered successfully");
+	    Screenshots.TakesScreenshots(driver, "C:\\Users\\Akhalesh\\git\\CP_BPTCRepo\\CP-BPTC_Framework\\src\\BPTC\\utilities\\Screenshots\\Registration\\Reg_success.jpeg");
 	}
 	    else
 	    {   
 	    	Logs.Takelog("Registration", "Fail - Confirmation message does not appear");
 		    System.out.println(" Fail - Confirmation message does not appear");
-	    	
+		    Screenshots.TakesScreenshots(driver, "C:\\Users\\Akhalesh\\git\\CP_BPTCRepo\\CP-BPTC_Framework\\src\\BPTC\\utilities\\Screenshots\\Registration\\Reg_Fail.jpeg");
 	    }
 }
 catch (Exception e) {
 	Logs.Takelog("Registration", e.getMessage());
 	System.out.println("Registration" + e.getMessage());
+	Screenshots.TakesScreenshots(driver,"C:\\Users\\Akhalesh\\git\\CP_BPTCRepo\\CP-BPTC_Framework\\src\\BPTC\\utilities\\Screenshots\\Registration\\Reg_Fail.jpeg");
 }
 }
 }
