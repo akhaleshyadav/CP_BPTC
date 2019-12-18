@@ -4,7 +4,12 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="BPTC.Testing.TestCases.LoginTC"/>
+      <class name="BPTC.Testing.TestCases.SameDayBooking"/>  
+      <class name="BPTC.Testing.TestCases.NextDayBooking"/>
+      <class name="BPTC.Testing.TestCases.SaturdayAndSundayBooking"/>
+      <class name="BPTC.Testing.TestCases.HolidayBooking"/>
+      <class name="BPTC.Testing.TestCases.SameDayBooking"/>
       <class name="BPTC.Testing.TestCases.Registration"/>
     </classes>
   </test> <!-- Test -->
-</suite> <!-- Suite -->
+</suite> <!-- Suite --> 

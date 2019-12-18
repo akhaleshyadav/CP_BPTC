@@ -5,8 +5,11 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
+
+import org.automationtesting.excelreport.Xl;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 
@@ -40,9 +43,14 @@ public class Base {
       public void BrowserClose() throws InterruptedException
       {
     	 // driver=new ChromeDriver();
-    	//  driver.close();
+    	  driver.close();
     	  Logs.Takelog("Base", "Browser Closed successfully");
     	  Thread.sleep(3000);
+      }
+      @AfterSuite
+      public void ExcelReport() throws Exception
+      {
+    	Xl.generateReport("../TestReport.xlsx");  
       }
       @DataProvider
       public Object[][] LoginData() throws BiffException, IOException

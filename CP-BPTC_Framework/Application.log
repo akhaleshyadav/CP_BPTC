@@ -1,58 +1,173 @@
-2019-09-30 18:19:04 {Base} (main:) Browser launched successfully
-2019-09-30 18:19:21 {SameDayBooking} (main:) User Logged in successfully
-2019-09-30 18:19:38 {TripBooking} (main:) PU address selected successfully
-2019-09-30 18:19:40 {TripBooking} (main:) Destination address selected successfully
-2019-09-30 18:19:40 {TripBooking} (main:) 07 Hours selected
-2019-09-30 18:19:43 {TripBooking} (main:) 25 min selected
-2019-09-30 18:19:46 {Base} (main:) Browser Closed successfully
-2019-09-30 18:28:46 {Base} (main:) Browser launched successfully
-2019-09-30 18:29:04 {SameDayBooking} (main:) User Logged in successfully
-2019-09-30 18:29:20 {TripBooking} (main:) PU address selected successfully
-2019-09-30 18:29:22 {TripBooking} (main:) Destination address selected successfully
-2019-09-30 18:29:22 {TripBooking} (main:) 07 Hours selected
-2019-09-30 18:29:26 {TripBooking} (main:) 25 min selected
-2019-09-30 18:29:29 {Base} (main:) Browser Closed successfully
-2019-09-30 18:34:51 {Base} (main:) Browser launched successfully
-2019-09-30 18:35:08 {SameDayBooking} (main:) User Logged in successfully
-2019-09-30 18:35:25 {TripBooking} (main:) PU address selected successfully
-2019-09-30 18:35:27 {TripBooking} (main:) Destination address selected successfully
-2019-09-30 18:35:27 {TripBooking} (main:) 07 Hours selected
-2019-09-30 18:35:30 {TripBooking} (main:) 25 min selected
-2019-09-30 18:35:33 {Base} (main:) Browser Closed successfully
-2019-09-30 18:38:17 {Base} (main:) Browser launched successfully
-2019-09-30 18:38:35 {SameDayBooking} (main:) User Logged in successfully
-2019-09-30 18:38:51 {TripBooking} (main:) PU address selected successfully
-2019-09-30 18:38:53 {TripBooking} (main:) Destination address selected successfully
-2019-09-30 18:38:53 {TripBooking} (main:) 07 Hours selected
-2019-09-30 18:38:56 {TripBooking} (main:) 25 min selected
-2019-09-30 18:39:00 {Base} (main:) Browser Closed successfully
-2019-09-30 18:50:46 {Base} (main:) Browser launched successfully
-2019-09-30 18:51:04 {SameDayBooking} (main:) User Logged in successfully
-2019-09-30 18:51:20 {TripBooking} (main:) PU address selected successfully
-2019-09-30 18:51:22 {TripBooking} (main:) Destination address selected successfully
-2019-09-30 18:51:22 {TripBooking} (main:) 07 Hours selected
-2019-09-30 18:51:25 {TripBooking} (main:) 25 min selected
-2019-09-30 18:51:29 {Base} (main:) Browser Closed successfully
-2019-09-30 18:53:33 {Base} (main:) Browser launched successfully
-2019-09-30 18:53:51 {SameDayBooking} (main:) User Logged in successfully
-2019-09-30 18:54:07 {TripBooking} (main:) PU address selected successfully
-2019-09-30 18:54:09 {TripBooking} (main:) Destination address selected successfully
-2019-09-30 18:54:09 {TripBooking} (main:) 07 Hours selected
-2019-09-30 18:54:12 {TripBooking} (main:) 25 min selected
-2019-09-30 18:54:15 {Base} (main:) Browser Closed successfully
-2019-09-30 18:58:24 {Base} (main:) Browser launched successfully
-2019-09-30 18:58:41 {SameDayBooking} (main:) User Logged in successfully
-2019-09-30 18:58:58 {TripBooking} (main:) PU address selected successfully
-2019-09-30 18:59:00 {TripBooking} (main:) Destination address selected successfully
-2019-09-30 18:59:00 {TripBooking} (main:) 07 Hours selected
-2019-09-30 18:59:03 {TripBooking} (main:) 25 min selected
-2019-09-30 18:59:06 {Base} (main:) Browser Closed successfully
-2019-09-30 19:25:07 {Base} (main:) Browser launched successfully
-2019-09-30 19:25:07 {Base} (main:) Browser Closed successfully
-2019-10-01 19:31:51 {Base} (main:) Browser launched successfully
-2019-10-01 19:32:09 {SameDayBooking} (main:) User Logged in successfully
-2019-10-01 19:32:26 {TripBooking} (main:) PU address selected successfully
-2019-10-01 19:32:28 {TripBooking} (main:) Destination address selected successfully
-2019-10-01 19:32:30 {TripBooking} (main:) 07 Hours selected
-2019-10-01 19:32:33 {TripBooking} (main:) 25 min selected
-2019-10-01 19:32:36 {Base} (main:) Browser Closed successfully
+2019-10-11 13:19:30 {Base} (main:) Browser launched successfully
+2019-10-11 13:19:32 {LoginTC} (main:) Login button clicked successfully
+2019-10-11 13:19:50 {LoginTC} (main:) Login test -Pass for Invalid credential, it prompts validation for invalid credentialsC11111 hbss2051
+2019-10-11 13:19:51 {Base} (main:) Browser Closed successfully
+2019-10-11 13:20:13 {Base} (main:) Browser launched successfully
+2019-10-11 13:20:15 {LoginTC} (main:) Login button clicked successfully
+2019-10-11 13:20:33 {LoginTC} (main:) Login test -Pass for Invalid credential, it prompts validation for invalid credentialsC13057 hbf254
+2019-10-11 13:20:33 {Base} (main:) Browser Closed successfully
+2019-10-11 13:20:55 {Base} (main:) Browser launched successfully
+2019-10-11 13:20:57 {LoginTC} (main:) Login button clicked successfully
+2019-10-11 13:21:15 {LoginTC} (main:) Login test -Pass for Invalid credential, it prompts validation for invalid credentialsC13057 Hbss2004
+2019-10-11 13:21:15 {Base} (main:) Browser Closed successfully
+2019-10-11 13:31:02 {Base} (main:) Browser launched successfully
+2019-10-11 13:31:04 {LoginTC} (main:) Login button clicked successfully
+2019-10-11 13:31:22 {LoginTC} (main:) Login test -Pass for Invalid credential, it prompts validation for invalid credentialsC11111 hbss2051
+2019-10-11 13:31:22 {Base} (main:) Browser Closed successfully
+2019-10-11 13:32:23 {Base} (main:) Browser launched successfully
+2019-10-11 13:32:40 {SameDayBooking} (main:) User Logged in successfully
+2019-10-11 13:32:53 {Base} (main:) Browser Closed successfully
+2019-12-06 12:20:09 {Base} (main:) Browser launched successfully
+2019-12-06 12:20:11 {LoginTC} (main:) Login button clicked successfully
+2019-12-06 12:20:29 {LoginTC} (main:) Login test -Pass for Invalid credential, it prompts validation for invalid credentialsC11111 hbss2051
+2019-12-06 12:20:32 {Base} (main:) Browser Closed successfully
+2019-12-06 12:20:57 {Base} (main:) Browser launched successfully
+2019-12-06 12:20:59 {LoginTC} (main:) Login button clicked successfully
+2019-12-06 12:21:17 {LoginTC} (main:) Login test -Pass for Invalid credential, it prompts validation for invalid credentialsC13057 hbf254
+2019-12-06 12:21:18 {Base} (main:) Browser Closed successfully
+2019-12-06 12:21:42 {Base} (main:) Browser launched successfully
+2019-12-06 12:21:45 {LoginTC} (main:) Login button clicked successfully
+2019-12-06 12:22:02 {LoginTC} (main:) Login test -Pass for Invalid credential, it prompts validation for invalid credentialsC13057 Hbss2004
+2019-12-06 12:22:03 {Base} (main:) Browser Closed successfully
+2019-12-06 12:22:24 {Base} (main:) Browser launched successfully
+2019-12-06 12:22:32 {Registration} (main:) Register button clicked successfully
+2019-12-06 12:22:43 {Registration} (main:) Member first name
+2019-12-06 12:22:51 {Registration} (main:) element click intercepted: Element <button type="button" id="btnRegister" class="btn btn-success" onclick="RegisterUser(); return false;" aria-expanded="false" style="width: 100%" disabled="">...</button> is not clickable at point (671, 426). Other element would receive the click: <div class="btn-group" style="width: 100%">...</div>
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'QA-003', ip: '192.168.34.152', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\Akhalesh\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50201}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4b71da0a2bbbe608c882c707f827f347
+2019-12-06 12:22:54 {Base} (main:) Browser Closed successfully
+2019-12-06 12:23:12 {Base} (main:) Browser launched successfully
+2019-12-06 12:23:20 {Base} (main:) Browser Closed successfully
+2019-12-06 12:25:38 {Base} (main:) Browser launched successfully
+2019-12-06 12:25:46 {Registration} (main:) Register button clicked successfully
+2019-12-06 12:25:57 {Registration} (main:) Member first name
+2019-12-06 12:26:05 {Registration} (main:) element click intercepted: Element <button type="button" id="btnRegister" class="btn btn-success" onclick="RegisterUser(); return false;" aria-expanded="false" style="width: 100%" disabled="">...</button> is not clickable at point (671, 426). Other element would receive the click: <div class="btn-group" style="width: 100%">...</div>
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'QA-003', ip: '192.168.34.152', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\Akhalesh\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50380}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9d9eb76adc756636f19db3ecab8404b4
+2019-12-06 12:26:06 {Base} (main:) Browser Closed successfully
+2019-12-06 12:34:21 {Base} (main:) Browser launched successfully
+2019-12-06 12:34:39 {SameDayBooking} (main:) User Logged in successfully
+2019-12-06 12:34:54 {Base} (main:) Browser Closed successfully
+2019-12-06 12:39:08 {Base} (main:) Browser launched successfully
+2019-12-06 12:39:26 {SameDayBooking} (main:) User Logged in successfully
+2019-12-06 12:39:39 {Base} (main:) Browser Closed successfully
+2019-12-06 12:48:54 {Base} (main:) Browser launched successfully
+2019-12-06 12:49:12 {SameDayBooking} (main:) User Logged in successfully
+2019-12-06 12:49:34 {TripBooking} (main:) PU address selected successfully
+2019-12-06 12:49:39 {TripBooking} (main:) Destination address selected successfully
+2019-12-06 12:49:39 {TripBooking} (main:) 07 Hours selected
+2019-12-06 12:49:42 {TripBooking} (main:) 25 min selected
+2019-12-06 12:49:48 {Base} (main:) Browser Closed successfully
+2019-12-06 12:52:20 {Base} (main:) Browser launched successfully
+2019-12-06 12:52:37 {SameDayBooking} (main:) User Logged in successfully
+2019-12-06 12:52:59 {TripBooking} (main:) PU address selected successfully
+2019-12-06 12:53:04 {TripBooking} (main:) Destination address selected successfully
+2019-12-06 12:53:04 {TripBooking} (main:) 07 Hours selected
+2019-12-06 12:53:07 {TripBooking} (main:) 25 min selected
+2019-12-06 12:53:11 {Base} (main:) Browser Closed successfully
+2019-12-06 13:12:20 {Base} (main:) Browser launched successfully
+2019-12-06 13:12:37 {SameDayBooking} (main:) User Logged in successfully
+2019-12-06 13:12:59 {TripBooking} (main:) PU address selected successfully
+2019-12-06 13:13:04 {TripBooking} (main:) Destination address selected successfully
+2019-12-06 13:13:04 {TripBooking} (main:) 07 Hours selected
+2019-12-06 13:13:07 {TripBooking} (main:) 25 min selected
+2019-12-06 13:13:10 {Base} (main:) Browser Closed successfully
+2019-12-06 13:14:58 {Base} (main:) Browser launched successfully
+2019-12-06 13:15:15 {SameDayBooking} (main:) User Logged in successfully
+2019-12-06 13:15:37 {TripBooking} (main:) PU address selected successfully
+2019-12-06 13:15:42 {TripBooking} (main:) Destination address selected successfully
+2019-12-06 13:15:42 {TripBooking} (main:) 07 Hours selected
+2019-12-06 13:15:45 {TripBooking} (main:) 25 min selected
+2019-12-06 13:15:49 {Base} (main:) Browser Closed successfully
+2019-12-06 13:17:49 {Base} (main:) Browser launched successfully
+2019-12-06 13:18:07 {SameDayBooking} (main:) User Logged in successfully
+2019-12-06 13:18:28 {TripBooking} (main:) PU address selected successfully
+2019-12-06 13:18:33 {TripBooking} (main:) Destination address selected successfully
+2019-12-06 13:18:34 {TripBooking} (main:) 07 Hours selected
+2019-12-06 13:18:37 {TripBooking} (main:) 25 min selected
+2019-12-06 13:18:40 {Base} (main:) Browser Closed successfully
+2019-12-06 13:23:33 {Base} (main:) Browser launched successfully
+2019-12-06 13:23:51 {SameDayBooking} (main:) User Logged in successfully
+2019-12-06 13:24:12 {TripBooking} (main:) PU address selected successfully
+2019-12-06 13:24:17 {TripBooking} (main:) Destination address selected successfully
+2019-12-06 13:24:17 {TripBooking} (main:) 07 Hours selected
+2019-12-06 13:24:20 {TripBooking} (main:) 25 min selected
+2019-12-06 13:24:24 {Base} (main:) Browser Closed successfully
+2019-12-06 13:28:17 {Base} (main:) Browser launched successfully
+2019-12-06 13:28:35 {SameDayBooking} (main:) User Logged in successfully
+2019-12-06 13:28:56 {TripBooking} (main:) PU address selected successfully
+2019-12-06 13:29:02 {TripBooking} (main:) Destination address selected successfully
+2019-12-06 13:29:02 {TripBooking} (main:) 07 Hours selected
+2019-12-06 13:29:05 {TripBooking} (main:) 25 min selected
+2019-12-06 13:29:24 {Base} (main:) Browser Closed successfully
+2019-12-06 13:56:24 {Base} (main:) Browser launched successfully
+2019-12-06 13:56:26 {LoginTC} (main:) Login button clicked successfully
+2019-12-06 13:56:44 {LoginTC} (main:) Login test -Pass for Invalid credential, it prompts validation for invalid credentialsC11111 hbss2051
+2019-12-06 13:56:45 {Base} (main:) Browser Closed successfully
+2019-12-06 13:57:03 {Base} (main:) Browser launched successfully
+2019-12-06 13:57:05 {LoginTC} (main:) Login button clicked successfully
+2019-12-06 13:57:23 {LoginTC} (main:) Login test -Pass for Invalid credential, it prompts validation for invalid credentialsC13057 hbf254
+2019-12-06 13:57:25 {Base} (main:) Browser Closed successfully
+2019-12-06 13:57:42 {Base} (main:) Browser launched successfully
+2019-12-06 13:57:44 {LoginTC} (main:) Login button clicked successfully
+2019-12-06 13:58:02 {LoginTC} (main:) Login test -Pass for Invalid credential, it prompts validation for invalid credentialsC13057 Hbss2004
+2019-12-06 13:58:05 {Base} (main:) Browser Closed successfully
+2019-12-06 13:58:22 {Base} (main:) Browser launched successfully
+2019-12-06 13:58:40 {SameDayBooking} (main:) User Logged in successfully
+2019-12-06 13:59:02 {TripBooking} (main:) PU address selected successfully
+2019-12-06 13:59:07 {TripBooking} (main:) Destination address selected successfully
+2019-12-06 13:59:07 {TripBooking} (main:) 07 Hours selected
+2019-12-06 13:59:10 {TripBooking} (main:) 25 min selected
+2019-12-06 13:59:31 {Base} (main:) Browser Closed successfully
+2019-12-17 14:58:25 {Base} (main:) Browser launched successfully
+2019-12-17 14:58:27 {LoginTC} (main:) Login button clicked successfully
+2019-12-17 14:58:45 {LoginTC} (main:) Login test -Pass for Invalid credential, it prompts validation for invalid credentialsC11111 hbss2051
+2019-12-17 14:58:47 {Base} (main:) Browser Closed successfully
+2019-12-17 15:00:08 {Base} (main:) Browser launched successfully
+2019-12-17 15:00:10 {LoginTC} (main:) Login button clicked successfully
+2019-12-17 15:00:28 {LoginTC} (main:) Login test -Pass for Invalid credential, it prompts validation for invalid credentialsC13057 hbf254
+2019-12-17 15:00:31 {Base} (main:) Browser Closed successfully
+2019-12-17 15:04:40 {Base} (main:) Browser launched successfully
+2019-12-17 15:04:42 {LoginTC} (main:) Login button clicked successfully
+2019-12-17 15:05:00 {LoginTC} (main:) Login test -Pass for Invalid credential, it prompts validation for invalid credentialsC13057 Hbss2004
+2019-12-17 15:05:02 {Base} (main:) Browser Closed successfully
+2019-12-17 15:06:44 {Base} (main:) Browser launched successfully
+2019-12-17 15:06:53 {Base} (main:) Browser Closed successfully
+2019-12-17 16:15:10 {Base} (main:) Browser launched successfully
+2019-12-17 16:15:28 {SameDayBooking} (main:) User Logged in successfully
+2019-12-17 16:15:50 {TripBooking} (main:) PU address selected successfully
+2019-12-17 16:15:55 {TripBooking} (main:) Destination address selected successfully
+2019-12-17 16:15:55 {TripBooking} (main:) 07 Hours selected
+2019-12-17 16:15:59 {TripBooking} (main:) 25 min selected
+2019-12-17 16:16:18 {Base} (main:) Browser Closed successfully
+2019-12-17 16:16:57 {Base} (main:) Browser launched successfully
+2019-12-17 16:17:15 {NextDayBooking} (main:) User Logged in successfully
+2019-12-17 16:17:36 {TripBooking} (main:) PU address selected successfully
+2019-12-17 16:17:42 {TripBooking} (main:) Destination address selected successfully
+2019-12-17 16:17:42 {TripBooking} (main:) 07 Hours selected
+2019-12-17 16:17:45 {TripBooking} (main:) 25 min selected
+2019-12-17 16:18:06 {Base} (main:) Browser Closed successfully
+2019-12-17 16:18:46 {Base} (main:) Browser launched successfully
+2019-12-17 16:19:04 {SaturdayAndSundayBooking} (main:) User Logged in successfully
+2019-12-17 16:19:26 {Base} (main:) Browser Closed successfully
+2019-12-17 17:08:46 {Base} (main:) Browser launched successfully
+2019-12-17 17:09:04 {SameDayBooking} (main:) User Logged in successfully
+2019-12-17 17:09:26 {Base} (main:) Browser Closed successfully
+2019-12-17 17:10:56 {Base} (main:) Browser launched successfully
+2019-12-17 17:11:14 {NextDayBooking} (main:) User Logged in successfully
+2019-12-17 17:11:35 {TripBooking} (main:) PU address selected successfully
+2019-12-17 17:11:41 {TripBooking} (main:) Destination address selected successfully
+2019-12-17 17:11:41 {TripBooking} (main:) 07 Hours selected
+2019-12-17 17:11:44 {TripBooking} (main:) 25 min selected
+2019-12-17 17:12:05 {Base} (main:) Browser Closed successfully
+2019-12-17 17:12:54 {Base} (main:) Browser launched successfully
+2019-12-17 17:13:12 {SaturdayAndSundayBooking} (main:) User Logged in successfully
+2019-12-17 17:13:34 {Base} (main:) Browser Closed successfully

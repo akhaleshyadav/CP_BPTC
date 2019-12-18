@@ -1,0 +1,75 @@
+package BPTC.utilities;
+
+import org.testng.annotations.Test;
+
+import java.io.IOException;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Test;
+
+import BPTC.Testing.Base.Base;
+import BPTC.utilities.Logs;
+import BPTC.utilities.Screenshots;
+
+public class Registration extends Base {
+@Test	
+public void Reg_new() throws InterruptedException, IOException
+{   try {
+	WebElement LoginBtn=driver.findElement(By.cssSelector("a[id='lnkLogin']"));
+	
+	LoginBtn.click();
+	Thread.sleep(5000);
+	System.out.println("button clicked");
+	WebElement Register_Btn=driver.findElement(By.id("btnRyderLnk"));
+	Register_Btn.click();
+	Thread.sleep(3000);
+	Logs.Takelog("Registration", "Register button clicked successfully");
+	
+	WebElement ClientId = driver.findElement(By.xpath("//input[@id='txtClientID']"));  //Tag with 
+	//WebElement ClientId = driver.findElement(By.id("txtClientID"));
+	ClientId.sendKeys("C1276");
+	
+	Actions ac=new Actions(driver);
+	ac.sendKeys(Keys.TAB).build().perform();
+	Thread.sleep(10000);
+	
+	WebElement name=driver.findElement(By.id("txtFName"));
+	String fname=name.getText();
+	System.out.println(fname);
+	Logs.Takelog("Registration", fname +"Member first name");
+			
+	WebElement Pswd =driver.findElement(By.xpath("//input[@type='password' and @id='txtUserPassword']"));
+	Pswd.sendKeys("Hbss2004");
+	
+	WebElement ConfrmPswd=driver.findElement(By.xpath("//input[@type='password' and @id='txtConfirmPassword']"));
+	ConfrmPswd.sendKeys("Hbss2004");
+	Thread.sleep(8000);
+	WebElement LetsGo = driver.findElement(By.id("btnRegister"));
+	LetsGo.click();
+	WebElement confrmMsg=driver.findElement(By.xpath("//span[text()='   User Registered Successfully']"));
+	Boolean Cfrm=confrmMsg.isDisplayed();
+	if (Cfrm=true)
+	{
+		Logs.Takelog("Registration", "Pass - User Registered successfully");
+	    System.out.println("Pass - User registered successfully");
+	    //Screenshots.TakesScreenshots(driver, "C:\\Users\\Akhalesh\\git\\CP_BPTCRepo\\CP-BPTC_Framework\\src\\BPTC\\utilities\\Screenshots\\Registration\\Reg_success.jpeg");
+	}
+	    else
+	    {   
+	    	Logs.Takelog("Registration", "Fail - Confirmation message does not appear");
+		    System.out.println(" Fail - Confirmation message does not appear");
+		  //  Screenshots.TakesScreenshots(driver, "C:\\Users\\Akhalesh\\git\\CP_BPTCRepo\\CP-BPTC_Framework\\src\\BPTC\\utilities\\Screenshots\\Registration\\Reg_Fail.jpeg");
+	    }
+}
+catch (Exception e) {
+	Logs.Takelog("Registration", e.getMessage());
+	System.out.println("Registration" + e.getMessage());
+	//Screenshots.TakesScreenshots(driver,"C:\\Users\\Akhalesh\\git\\CP_BPTCRepo\\CP-BPTC_Framework\\src\\BPTC\\utilities\\Screenshots\\Registration\\Reg_Fail.jpeg");
+}
+}
+}

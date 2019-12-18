@@ -24,12 +24,15 @@ public class TripBooking extends Base{
 	{
 		this.driver=driver;
 		this.pr=pr;
+		System.out.println("Constructor call");
 	}
 	
 	public void SingleTripBooking(String ddate) throws InterruptedException
 	{
-		Thread.sleep(10000);
-	WebElement PuLocation = driver.findElement(By.cssSelector(pr.getProperty("Pickuplocationddl")));
+		System.out.println("Single trip booking started !");
+		Thread.sleep(15000);
+	/*WebElement PuLocation = driver.findElement(By.cssSelector(pr.getProperty("Pickuplocationddl")));*/
+	WebElement PuLocation=  driver.findElement(By.cssSelector("#aPulocation"));
 	PuLocation.click();
 	Thread.sleep(3000);
 	
@@ -64,13 +67,19 @@ public class TripBooking extends Base{
 	
 	WebElement dte= driver.findElement(By.id("travelDate"));
 	dte.click();
-	WebElement cldnr=driver.findElement(By.xpath("//a[@class='ui-state-default ui-state-highlight' or text()=arrStr[1]]"));
+	WebElement cldnr=driver.findElement(By.xpath("//a[@class='ui-state-default' and text()=18]"));
 	cldnr.click();
-	
-	WebElement RoundChckBx=driver.findElement(By.id("chkroundtrip"));
+	System.out.println("Date selected");
+	Thread.sleep(3000);
+	WebElement RoundChckBx=driver.findElement(By.cssSelector("#chkroundtrip"));
 	RoundChckBx.click();
-	
-	
+	Thread.sleep(4000);
+	WebElement BookTpBtn=driver.findElement(By.cssSelector("#btnBookTrip"));
+	BookTpBtn.click();
+	Thread.sleep(8000);
+		
 	}
+	
+	
 	
 }
