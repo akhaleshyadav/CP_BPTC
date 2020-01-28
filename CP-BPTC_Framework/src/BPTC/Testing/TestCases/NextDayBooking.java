@@ -12,14 +12,21 @@ import BPTC.utilities.Logs;
 public class NextDayBooking extends Base {
 	public void NextDayBooking() throws InterruptedException
 	{
+	try {
 	WebElement lgb=driver.findElement(By.id("lnkLogin"));
 	 lgb.click();	
 	 Thread.sleep(3000);
     Login l=new Login(driver, pr);
-    l.Signin("C13057","Hbss2004");
+    l.Signin("testnk","Hbss2004");
     Logs.Takelog("NextDayBooking", "User Logged in successfully");
     Thread.sleep(3000);
     TripBooking tp=new TripBooking(driver,pr);
-    tp.SingleTripBooking("12/18/2019");    //Pass the Tomorrow date
+    tp.SingleTripBooking("01/29/2020");    //Pass the Tomorrow date
+    Logs.Takelog("NextDayBooking", "Next day trip booked successfully");
+	
 	}
-}
+	catch(Exception e)
+	{
+		Logs.Takelog("NextDayBooking", e.getMessage());
+	}
+}}

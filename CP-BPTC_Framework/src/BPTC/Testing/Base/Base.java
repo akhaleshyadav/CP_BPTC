@@ -34,7 +34,7 @@ public class Base {
 		 
 		System.setProperty("webdriver.chrome.driver","D:\\Tools\\CompleteSeleniumSetUp_win64bit\\chromedriver_win32 (1)\\chromedriver.exe");
     	  driver= new ChromeDriver();
-    	  driver.get("https://cp-bptcstg.qryde.com/");
+    	  driver.get("https://cp-martstg.qryde.com/");
     	  driver.manage().window().maximize();
     	  Thread.sleep(5000);
     	  Logs.Takelog("Base", "Browser launched successfully");
@@ -47,11 +47,8 @@ public class Base {
     	  Logs.Takelog("Base", "Browser Closed successfully");
     	  Thread.sleep(3000);
       }
-      @AfterSuite
-      public void ExcelReport() throws Exception
-      {
-    	Xl.generateReport("../TestReport.xlsx");  
-      }
+      
+     
       @DataProvider
       public Object[][] LoginData() throws BiffException, IOException
       {
@@ -73,5 +70,9 @@ public class Base {
     	}
     	return ob;
       }
-      
+      @AfterSuite
+      public void ExcelReport() throws Exception
+      {
+    	Xl.generateReport("../TestReport1.xlsx");  
+      } 
 }

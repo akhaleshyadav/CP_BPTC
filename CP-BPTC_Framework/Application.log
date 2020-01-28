@@ -171,3 +171,125 @@ Session ID: 9d9eb76adc756636f19db3ecab8404b4
 2019-12-17 17:12:54 {Base} (main:) Browser launched successfully
 2019-12-17 17:13:12 {SaturdayAndSundayBooking} (main:) User Logged in successfully
 2019-12-17 17:13:34 {Base} (main:) Browser Closed successfully
+2020-01-28 13:18:31 {Base} (main:) Browser launched successfully
+2020-01-28 13:18:33 {LoginTC} (main:) Login button clicked successfully
+2020-01-28 13:18:52 {LoginTC} (main:) Login test -Pass for Invalid credential, it prompts validation for invalid credentialsC11111 hbss2051
+2020-01-28 13:18:54 {Base} (main:) Browser Closed successfully
+2020-01-28 13:19:18 {Base} (main:) Browser launched successfully
+2020-01-28 13:19:20 {LoginTC} (main:) Login button clicked successfully
+2020-01-28 13:19:37 {LoginTC} (main:) Login test -Pass for Invalid credential, it prompts validation for invalid credentialstestnk hbf254
+2020-01-28 13:19:38 {Base} (main:) Browser Closed successfully
+2020-01-28 13:19:56 {Base} (main:) Browser launched successfully
+2020-01-28 13:19:58 {LoginTC} (main:) Login button clicked successfully
+2020-01-28 13:20:16 {LoginTC} (main:) Login test -Pass for Invalid credential, it prompts validation for invalid credentialstestnk Hbss2004
+2020-01-28 13:20:17 {Base} (main:) Browser Closed successfully
+2020-01-28 13:20:38 {Base} (main:) Browser launched successfully
+2020-01-28 13:20:46 {Registration} (main:) Register button clicked successfully
+2020-01-28 13:20:47 {Registration} (main:) element not interactable
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'QA-003', ip: '192.168.34.152', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\Akhalesh\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50429}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e8687c051033f8c4ed607ac13bb3f141
+2020-01-28 13:20:48 {Base} (main:) Browser Closed successfully
+2020-01-28 13:21:09 {Base} (main:) Browser launched successfully
+2020-01-28 13:21:27 {SameDayBooking} (main:) User Logged in successfully
+2020-01-28 13:21:48 {SameDayBooking} (main:) no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@id='aPuLocationUL']/li/a[text()='1019 E SHERIDAN DR , BLOOMINGTON, IN 47401']"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'QA-003', ip: '192.168.34.152', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\Akhalesh\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50474}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fd4805046ed91758755d0bb3ff20ac73
+*** Element info: {Using=xpath, value=//ul[@id='aPuLocationUL']/li/a[text()='1019 E SHERIDAN DR , BLOOMINGTON, IN 47401']}
+2020-01-28 13:21:50 {Base} (main:) Browser Closed successfully
+2020-01-28 13:22:11 {Base} (main:) Browser launched successfully
+2020-01-28 13:22:29 {NextDayBooking} (main:) User Logged in successfully
+2020-01-28 13:22:50 {NextDayBooking} (main:) no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@id='aPuLocationUL']/li/a[text()='1019 E SHERIDAN DR , BLOOMINGTON, IN 47401']"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'QA-003', ip: '192.168.34.152', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\Akhalesh\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50551}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cd8fe1174f57d4e416eee569c2e18619
+*** Element info: {Using=xpath, value=//ul[@id='aPuLocationUL']/li/a[text()='1019 E SHERIDAN DR , BLOOMINGTON, IN 47401']}
+2020-01-28 13:22:51 {Base} (main:) Browser Closed successfully
+2020-01-28 13:23:11 {Base} (main:) Browser launched successfully
+2020-01-28 13:23:28 {SaturdayAndSundayBooking} (main:) User Logged in successfully
+2020-01-28 13:23:49 {SaturdayAndSundayBooking} (main:) no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@id='aPuLocationUL']/li/a[text()='1019 E SHERIDAN DR , BLOOMINGTON, IN 47401']"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'QA-003', ip: '192.168.34.152', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\Akhalesh\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50621}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 63465d9d794e3bb4bc32963873987a76
+*** Element info: {Using=xpath, value=//ul[@id='aPuLocationUL']/li/a[text()='1019 E SHERIDAN DR , BLOOMINGTON, IN 47401']}
+2020-01-28 13:23:50 {Base} (main:) Browser Closed successfully
+2020-01-28 16:03:07 {Base} (main:) Browser launched successfully
+2020-01-28 16:03:10 {LoginTC} (main:) Login button clicked successfully
+2020-01-28 16:03:28 {LoginTC} (main:) Login test -Pass for Invalid credential, it prompts validation for invalid credentialsC11111 hbss2051
+2020-01-28 16:03:32 {Base} (main:) Browser Closed successfully
+2020-01-28 16:04:00 {Base} (main:) Browser launched successfully
+2020-01-28 16:04:02 {LoginTC} (main:) Login button clicked successfully
+2020-01-28 16:04:19 {LoginTC} (main:) Login test -Pass for Invalid credential, it prompts validation for invalid credentialstestnk hbf254
+2020-01-28 16:04:20 {Base} (main:) Browser Closed successfully
+2020-01-28 16:04:42 {Base} (main:) Browser launched successfully
+2020-01-28 16:04:44 {LoginTC} (main:) Login button clicked successfully
+2020-01-28 16:05:01 {LoginTC} (main:) Login test -Pass for Invalid credential, it prompts validation for invalid credentialstestnk Hbss2004
+2020-01-28 16:05:03 {Base} (main:) Browser Closed successfully
+2020-01-28 16:05:23 {Base} (main:) Browser launched successfully
+2020-01-28 16:05:32 {Registration} (main:) Register button clicked successfully
+2020-01-28 16:05:32 {Registration} (main:) element not interactable
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'QA-003', ip: '192.168.34.152', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\Akhalesh\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53896}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: dae7d12fd01cb6b10f3b0212fb4428c4
+2020-01-28 16:05:33 {Base} (main:) Browser Closed successfully
+2020-01-28 16:05:54 {Base} (main:) Browser launched successfully
+2020-01-28 16:06:11 {SameDayBooking} (main:) User Logged in successfully
+2020-01-28 16:06:33 {TripBooking} (main:) PU address selected successfully
+2020-01-28 16:06:38 {TripBooking} (main:) Destination address selected successfully
+2020-01-28 16:06:38 {SameDayBooking} (main:) no such element: Unable to locate element: {"method":"css selector","selector":"Select#ddlHH"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'QA-003', ip: '192.168.34.152', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\Akhalesh\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53943}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7ca4a89d06fac6092b0d5224b8d7d34b
+*** Element info: {Using=css selector, value=Select#ddlHH}
+2020-01-28 16:06:40 {Base} (main:) Browser Closed successfully
+2020-01-28 16:07:02 {Base} (main:) Browser launched successfully
+2020-01-28 16:07:19 {NextDayBooking} (main:) User Logged in successfully
+2020-01-28 16:07:41 {TripBooking} (main:) PU address selected successfully
+2020-01-28 16:07:46 {TripBooking} (main:) Destination address selected successfully
+2020-01-28 16:07:46 {NextDayBooking} (main:) no such element: Unable to locate element: {"method":"css selector","selector":"Select#ddlHH"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'QA-003', ip: '192.168.34.152', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\Akhalesh\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54017}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7b4a5e1609a2b08ff26570cab6805cbe
+*** Element info: {Using=css selector, value=Select#ddlHH}
+2020-01-28 16:07:46 {Base} (main:) Browser Closed successfully
+2020-01-28 16:08:07 {Base} (main:) Browser launched successfully
+2020-01-28 16:08:25 {SaturdayAndSundayBooking} (main:) User Logged in successfully
+2020-01-28 16:08:46 {TripBooking} (main:) PU address selected successfully
+2020-01-28 16:08:52 {TripBooking} (main:) Destination address selected successfully
+2020-01-28 16:08:52 {SaturdayAndSundayBooking} (main:) no such element: Unable to locate element: {"method":"css selector","selector":"Select#ddlHH"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'QA-003', ip: '192.168.34.152', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\Akhalesh\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54094}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b9e11de390e913208f62110d5d535b5a
+*** Element info: {Using=css selector, value=Select#ddlHH}
+2020-01-28 16:08:52 {Base} (main:) Browser Closed successfully

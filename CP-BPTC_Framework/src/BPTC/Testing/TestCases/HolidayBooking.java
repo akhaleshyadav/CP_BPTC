@@ -15,11 +15,11 @@ public class HolidayBooking extends Base{
 	 lgb.click();	
 	 Thread.sleep(3000);
      Login l=new Login(driver, pr);
-     l.Signin("C13057","Hbss2004");
+     l.Signin("testnk","Hbss2004");
      Logs.Takelog("HolidayBooking", "User Logged in successfully");
      Thread.sleep(3000);
      TripBooking tp=new TripBooking(driver,pr);
-     tp.SingleTripBooking("12/25/2019");
+     tp.SingleTripBooking("01/28/2019");
    
 		  
 }

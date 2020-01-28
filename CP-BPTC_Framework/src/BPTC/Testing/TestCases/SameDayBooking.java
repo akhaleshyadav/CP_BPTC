@@ -12,16 +12,21 @@ import BPTC.utilities.Logs;
 public class SameDayBooking extends Base {
 	public void SameDayBooking() throws InterruptedException
 	{
+	try {
 	 WebElement lgb=driver.findElement(By.id("lnkLogin"));
 	 lgb.click();	
 	 Thread.sleep(3000);
      Login l=new Login(driver, pr);
-     l.Signin("C13057","Hbss2004");
+     l.Signin("testnk","Hbss2004");
      Logs.Takelog("SameDayBooking", "User Logged in successfully");
      Thread.sleep(3000);
      TripBooking tp=new TripBooking(driver,pr);
-     tp.SingleTripBooking("12/17/2019");
-     
+     tp.SingleTripBooking("01/28/2020");
+		}
+		catch(Exception e) {
+			Logs.Takelog("SameDayBooking", e.getMessage());
+			Logs.takescreens();
+		}
   
 		  
 }

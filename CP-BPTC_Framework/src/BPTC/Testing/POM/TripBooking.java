@@ -37,7 +37,7 @@ public class TripBooking extends Base{
 	Thread.sleep(3000);
 	
     //WebElement PUselect = driver.findElement(By.xpath("//li[@value='A46419A000']")); //555 N MORTON ST , BLOOMINGTON, IN 47408
-    WebElement PUselect=driver.findElement(By.xpath("//ul[@id='aPuLocationUL']/li/a[text()='1019 E SHERIDAN DR , BLOOMINGTON, IN 47401']"));
+    WebElement PUselect=driver.findElement(By.xpath("//ul[@id='aPuLocationUL']/li/a[text()='5 JEWETT ST APT 1R, LOWELL, MA 01850']"));
 	PUselect.click();
 	Logs.Takelog("TripBooking", "PU address selected successfully");
 	Thread.sleep(2000);
@@ -46,20 +46,24 @@ public class TripBooking extends Base{
 	DOLocation.click();
 	Thread.sleep(3000);
 	
-	WebElement SelectDO = driver.findElement(By.xpath("//ul[@id='aAplocationUL']/li/a[text()='1965 S WALNUT ST , BLOOMINGTON, IN 47403']"));  //1965 S WALNUT ST , BLOOMINGTON, IN 47403'
+	WebElement SelectDO = driver.findElement(By.xpath("//ul[@id='aAplocationUL']/li/a[text()='40 N FITZWILLIAM RD , ROYALSTON, MA 01368']"));  //40 N FITZWILLIAM RD , ROYALSTON, MA 01368'
 	SelectDO.click();
 	Logs.Takelog("TripBooking", "Destination address selected successfully");
 	
-	WebElement hh= driver.findElement(By.cssSelector("Select#ddlHH"));
-	Select s_hh=new Select(hh);
-	s_hh.selectByVisibleText("07");	
-	Logs.Takelog("TripBooking", "07 Hours selected");
-	Thread.sleep(3000);
+	WebElement timeClick=driver.findElement(By.id("#puTime"));
+	timeClick.click();
+	WebElement timeddlclick=driver.findElement(By.cssSelector(cssSelector));
+	//Below time pickup code for BPTC
+	//WebElement hh= driver.findElement(By.cssSelector("Select#ddlHH"));
+	//Select s_hh=new Select(hh);
+	//s_hh.selectByVisibleText("07");	
+	//Logs.Takelog("TripBooking", "07 Hours selected");
+	//Thread.sleep(3000);
 	
-	WebElement mm= driver.findElement(By.cssSelector("Select#ddlMM"));
-	Select s_mm=new Select(mm);
-	s_mm.selectByVisibleText("25");	
-	Logs.Takelog("TripBooking", "25 min selected");
+	//WebElement mm= driver.findElement(By.cssSelector("Select#ddlMM"));
+	//Select s_mm=new Select(mm);
+	//s_mm.selectByVisibleText("25");	
+	//Logs.Takelog("TripBooking", "25 min selected");
 	Thread.sleep(3000);
 	String S=ddate;
 	String[] arrStr= S.split("/");
