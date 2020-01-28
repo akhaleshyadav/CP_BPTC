@@ -52,7 +52,7 @@ public class TripBooking extends Base{
 	
 	WebElement timeClick=driver.findElement(By.id("#puTime"));
 	timeClick.click();
-	WebElement timeddlclick=driver.findElement(By.cssSelector(cssSelector));
+	WebElement timeddlclick=driver.findElement(By.cssSelector("cssSelector"));
 	//Below time pickup code for BPTC
 	//WebElement hh= driver.findElement(By.cssSelector("Select#ddlHH"));
 	//Select s_hh=new Select(hh);
